@@ -13,6 +13,7 @@
 		454AF95C265F5A370085E8FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454AF95B265F5A370085E8FF /* Preview Assets.xcassets */; };
 		454AF95E265F5A370085E8FF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF95D265F5A370085E8FF /* Persistence.swift */; };
 		454AF961265F5A370085E8FF /* SwiftUITodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 454AF95F265F5A370085E8FF /* SwiftUITodo.xcdatamodeld */; };
+		454AF969265F5BD30085E8FF /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF968265F5BD30085E8FF /* CategoryImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		454AF95D265F5A370085E8FF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		454AF960265F5A370085E8FF /* SwiftUITodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUITodo.xcdatamodel; sourceTree = "<group>"; };
 		454AF962265F5A370085E8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454AF968265F5BD30085E8FF /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				454AF954265F5A340085E8FF /* SwiftUITodoApp.swift */,
 				454AF956265F5A340085E8FF /* ContentView.swift */,
+				454AF968265F5BD30085E8FF /* CategoryImage.swift */,
 				454AF958265F5A370085E8FF /* Assets.xcassets */,
 				454AF95D265F5A370085E8FF /* Persistence.swift */,
 				454AF962265F5A370085E8FF /* Info.plist */,
@@ -147,6 +150,7 @@
 				454AF95E265F5A370085E8FF /* Persistence.swift in Sources */,
 				454AF961265F5A370085E8FF /* SwiftUITodo.xcdatamodeld in Sources */,
 				454AF957265F5A340085E8FF /* ContentView.swift in Sources */,
+				454AF969265F5BD30085E8FF /* CategoryImage.swift in Sources */,
 				454AF955265F5A340085E8FF /* SwiftUITodoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
