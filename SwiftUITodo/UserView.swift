@@ -12,7 +12,9 @@ struct UserView: View {
         HStack {
             VStack(alignment: .leading) {
                 Text("こんにちは")
+                    .font(.footnote)
                 Text("Hiroaki Kaneda")
+                    .font(.title)
             }
             .foregroundColor(Color.tTitle)
             Spacer()
