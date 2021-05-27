@@ -17,6 +17,7 @@
 		454AF96B265F5FDC0085E8FF /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF96A265F5FDC0085E8FF /* CheckBox.swift */; };
 		454AF96E265F745F0085E8FF /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF96D265F745F0085E8FF /* Color+Extension.swift */; };
 		454AF970265F75440085E8FF /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF96F265F75440085E8FF /* UserView.swift */; };
+		454AF972265F7AED0085E8FF /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF971265F7AED0085E8FF /* TodoEntity+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		454AF96A265F5FDC0085E8FF /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		454AF96D265F745F0085E8FF /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		454AF96F265F75440085E8FF /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		454AF971265F7AED0085E8FF /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				454AF96D265F745F0085E8FF /* Color+Extension.swift */,
+				454AF971265F7AED0085E8FF /* TodoEntity+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				454AF957265F5A340085E8FF /* ContentView.swift in Sources */,
 				454AF969265F5BD30085E8FF /* CategoryImage.swift in Sources */,
 				454AF955265F5A340085E8FF /* SwiftUITodoApp.swift in Sources */,
+				454AF972265F7AED0085E8FF /* TodoEntity+Extension.swift in Sources */,
 				454AF96E265F745F0085E8FF /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
