@@ -29,11 +29,18 @@ struct CheckBox: View {
 }
 
 // PreviewProvider → Canvas へのプレビュー用のコード、実際のプログラムの実行には関係ない
+// struct → 構造体の定義
 struct CheckBox_Previews: PreviewProvider {
     static var previews: some View {
+        // on　と off を同時に表示したい
         VStack {
             CheckBox(checked: .constant(false))
             CheckBox(checked: .constant(true))
         }
+        // 2つのpreviewを表示する
+//        Group {
+//            CheckBox(checked: .constant(false))
+//            CheckBox(checked: .constant(true))
+//        }
     }
 }
