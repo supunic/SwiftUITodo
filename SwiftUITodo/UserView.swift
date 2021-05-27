@@ -14,16 +14,24 @@ struct UserView: View {
                 Text("こんにちは")
                 Text("Hiroaki Kaneda")
             }
+            .foregroundColor(Color.tTitle)
+            Spacer()
             Image("profile")
                 .resizable() // サイズ変更を可能にする
                 .frame(width: 60, height: 60)
+                .clipShape(Circle())
         }
+        .padding()
+        .background(Color.tBackground)
         
     }
 }
 
 struct UserView_Previews: PreviewProvider {
     static var previews: some View {
-        UserView()
+        Group {
+            UserView()
+            Circle()
+        }
     }
 }
