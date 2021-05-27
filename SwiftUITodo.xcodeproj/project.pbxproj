@@ -19,6 +19,7 @@
 		454AF970265F75440085E8FF /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF96F265F75440085E8FF /* UserView.swift */; };
 		454AF972265F7AED0085E8FF /* TodoEntity+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF971265F7AED0085E8FF /* TodoEntity+Extension.swift */; };
 		454AF976265F7EA20085E8FF /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF975265F7EA20085E8FF /* CategoryView.swift */; };
+		454AF99B265F85280085E8FF /* QuickNewTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF99A265F85280085E8FF /* QuickNewTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		454AF96F265F75440085E8FF /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		454AF971265F7AED0085E8FF /* TodoEntity+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TodoEntity+Extension.swift"; sourceTree = "<group>"; };
 		454AF975265F7EA20085E8FF /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		454AF99A265F85280085E8FF /* QuickNewTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickNewTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				454AF96A265F5FDC0085E8FF /* CheckBox.swift */,
 				454AF96F265F75440085E8FF /* UserView.swift */,
 				454AF975265F7EA20085E8FF /* CategoryView.swift */,
+				454AF99A265F85280085E8FF /* QuickNewTask.swift */,
 				454AF958265F5A370085E8FF /* Assets.xcassets */,
 				454AF95D265F5A370085E8FF /* Persistence.swift */,
 				454AF962265F5A370085E8FF /* Info.plist */,
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				454AF95E265F5A370085E8FF /* Persistence.swift in Sources */,
+				454AF99B265F85280085E8FF /* QuickNewTask.swift in Sources */,
 				454AF961265F5A370085E8FF /* SwiftUITodo.xcdatamodeld in Sources */,
 				454AF96B265F5FDC0085E8FF /* CheckBox.swift in Sources */,
 				454AF970265F75440085E8FF /* UserView.swift in Sources */,
