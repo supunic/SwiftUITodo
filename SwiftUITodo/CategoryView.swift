@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct CategoryView: View {
+    var category: TodoEntity.Category
+    @State var numberObTasks = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image(systemName: category.image())
+            Text(category.toString())
+            Text("・\(numberObTasks)タスク")
+            Button(action: {}) {
+                Image(systemName: "plus")
+            }
+            Spacer()
+        }
     }
 }
 
 struct CategoryView_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryView()
+        VStack {
+            CategoryView(category: TodoEntity.Category.ImpUrg_1st, numberObTasks: 100)
+            CategoryView(category: TodoEntity.Category.ImpNUrg_2nd)
+            CategoryView(category: TodoEntity.Category.NImpUrg_3rd)
+            CategoryView(category: TodoEntity.Category.NImpNUrg_4th)
+        }
+
     }
 }
