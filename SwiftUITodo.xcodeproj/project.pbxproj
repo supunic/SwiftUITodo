@@ -16,6 +16,7 @@
 		454AF969265F5BD30085E8FF /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF968265F5BD30085E8FF /* CategoryImage.swift */; };
 		454AF96B265F5FDC0085E8FF /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF96A265F5FDC0085E8FF /* CheckBox.swift */; };
 		454AF96E265F745F0085E8FF /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF96D265F745F0085E8FF /* Color+Extension.swift */; };
+		454AF970265F75440085E8FF /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AF96F265F75440085E8FF /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		454AF968265F5BD30085E8FF /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
 		454AF96A265F5FDC0085E8FF /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		454AF96D265F745F0085E8FF /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		454AF96F265F75440085E8FF /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				454AF956265F5A340085E8FF /* ContentView.swift */,
 				454AF968265F5BD30085E8FF /* CategoryImage.swift */,
 				454AF96A265F5FDC0085E8FF /* CheckBox.swift */,
+				454AF96F265F75440085E8FF /* UserView.swift */,
 				454AF958265F5A370085E8FF /* Assets.xcassets */,
 				454AF95D265F5A370085E8FF /* Persistence.swift */,
 				454AF962265F5A370085E8FF /* Info.plist */,
@@ -164,6 +167,7 @@
 				454AF95E265F5A370085E8FF /* Persistence.swift in Sources */,
 				454AF961265F5A370085E8FF /* SwiftUITodo.xcdatamodeld in Sources */,
 				454AF96B265F5FDC0085E8FF /* CheckBox.swift in Sources */,
+				454AF970265F75440085E8FF /* UserView.swift in Sources */,
 				454AF957265F5A340085E8FF /* ContentView.swift in Sources */,
 				454AF969265F5BD30085E8FF /* CategoryImage.swift in Sources */,
 				454AF955265F5A340085E8FF /* SwiftUITodoApp.swift in Sources */,
